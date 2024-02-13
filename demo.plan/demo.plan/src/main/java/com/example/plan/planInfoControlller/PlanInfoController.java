@@ -1,6 +1,6 @@
 package com.example.plan.planInfoControlller;
 
-import java.awt.PageAttributes.MediaType;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -9,7 +9,7 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.InputStreamResource;
-import org.springframework.core.io.Resource;
+
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -19,7 +19,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.example.plan.plan_info.entity.PlanInfo;
 import com.example.plan.plan_info.service.PlanInfoService;
-import com.example.plan.plan_info.service.PlansService;
 
 @RestController
 @CrossOrigin("*")
